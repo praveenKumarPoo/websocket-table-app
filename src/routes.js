@@ -27,14 +27,14 @@ export default function createRoutes(store) {
       },
     },
     childRoutes: [
-      {
-        path: '/about',
-        getComponent(nextState, cb) {
-          System.import(/* webpackChunkName: "about" */ './containers/About').then(component => {
-            cb(null, component.default);
-          });
-        },
-      }
+//       {
+//         path: '/about',
+//         getComponent(nextState, cb) {
+//           System.import(/* webpackChunkName: "about" */ './containers/About').then(component => {
+//             cb(null, component.default);
+//           });
+//         },
+//       }
     ]
   }, {
     path: '/login',
