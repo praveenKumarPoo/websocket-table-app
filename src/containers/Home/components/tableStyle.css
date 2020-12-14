@@ -1,0 +1,54 @@
+.row, .masterContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid #2d2d2d; */
+    justify-content: center;
+    background: #1b262d;
+    color: white;
+    width:100%;
+  }
+  .row_header {
+    color: #969b9e;
+  }
+  .row .col {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .table-content{
+      width:50%
+  }
+  .row .svg-left {
+      position: absolute;
+      right:50.8%;
+      opacity: 0.4;
+  }
+  .row .svg-right {
+    position: absolute;
+    left:49.5%;
+    opacity: 0.4;
+  }
+  
+  .ant-collapse-header {
+    color:#fff !important;
+    background: #1b262d;
+    font-weight: bolder;
+    font-size: .9rem;
+  }
+  i.arrow {
+    color: #fff !important;
+    font-weight: bolder;
+    font-size: .9rem;
+  }
+  .ant-collapse-content > .ant-collapse-content-box {
+    padding: 0px;
+    border-top: 1px solid #2a3c47;
+    max-height: 60vh;
+    overflow-y: scroll;
+  }
+  .ant-collapse-content{
+    padding: 0px;
+  }
+  .ant-collapse > .ant-collapse-item:not(.ant-collapse-item-disabled) > .ant-collapse-header:active {
+    background-color: #1b262d;
+}
